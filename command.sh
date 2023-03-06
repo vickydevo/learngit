@@ -1,12 +1,14 @@
 #!/bin/bash
 # Getting Started - First-Time Git Setup 
 # ------path]/etc/gitconfig file
+# starting local repository
 git init
 git status # u may get untracked files and floders
 git add . # move files to staging
 git commit -m " give some message related to the changes"
-
-
+# Now create repository in github repository
+git remote add origin <git repository url >
+# git remote add origin https://github.com/vickydevo/simple-node-server-ankit.git
 git config --global user.email "vignan.kandelab@gmail"
 git config --global user.name "john Doe"
 
