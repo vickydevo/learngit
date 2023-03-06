@@ -3,17 +3,25 @@
 # ------path]/etc/gitconfig file
 # starting local repository
 git init
-git status # u may get untracked files and floders
-git add . # move files to staging
+git status            # u may get untracked files and floders
+git add .             # move files to staging
 git commit -m " give some message related to the changes"
 
 # add global configurations
 git config --global user.email "vignan.kandelab@gmail"
 git config --global user.name "john Doe"
+
 # Now create repository in github repository
 git remote add origin <git repository url >
 # git remote add origin https://github.com/vickydevo/simple-node-server-ankit.git
-git push origin master or main 
+git push origin master or main            # depends on branch
+
+# check for remote repository push or fetch 
+git remote        # output #** origin 
+git remote -v  
+
+# how many branches are there? what are they
+git branch -a
 
 git status
 git log
