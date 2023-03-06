@@ -2,9 +2,15 @@
 # Getting Started - First-Time Git Setup 
 # ------path]/etc/gitconfig file
 git init
+git status # u may get untracked files and floders
+git add . # move files to staging
+git commit -m " give some message related to the changes"
+
+
 git config --global user.email "vignan.kandelab@gmail"
 git config --global user.name "john Doe"
 
+ 
 
 git status
 git log
@@ -28,4 +34,4 @@ ls
 git cat-file -p 6b820fd9037ce516d22549dde403f3bb9a41ad8e
 git cat-file -s 6b820fd9037ce516d22549dde403f3bb9a41ad8e
 echo 'melky'| git hash-object --stdin -w
-git cat-file -s 992652a6c0ba53c623d8bc43fce09513ded44710
+git cat-file -s 2e1e06962f750bb9ec4933c037da198e51f60b9d
