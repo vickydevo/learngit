@@ -23,6 +23,10 @@ git remote -v
 # how many branches are there? what are they
 git branch -a
 
+git fetch 
+git pull
+
+
 git status
 git log
 git push
