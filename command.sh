@@ -19,6 +19,8 @@ git push origin master or main            # depends on branch
 # check for remote repository push or fetch 
 git remote        # output #** origin 
 git remote -v  
+# origin  https://github.com/vickydevo/learngit.git (fetch)
+# origin  https://github.com/vickydevo/learngit.git (push)
 
 # how many branches are there? what are they
 git branch -a
