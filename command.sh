@@ -1,4 +1,7 @@
 #!/bin/bash
+# access token
+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
+
 # Getting Started - First-Time Git Setup 
 # ------path]/etc/gitconfig file
 # starting local repository
