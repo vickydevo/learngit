@@ -1,4 +1,7 @@
 #!/bin/bash
+# access token
+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
+
 # Getting Started - First-Time Git Setup 
 # ------path]/etc/gitconfig file
 # starting local repository
@@ -19,6 +22,8 @@ git push origin master or main            # depends on branch
 # check for remote repository push or fetch 
 git remote        # output #** origin 
 git remote -v  
+# origin  https://github.com/vickydevo/learngit.git (fetch)
+# origin  https://github.com/vickydevo/learngit.git (push)
 
 # how many branches are there? what are they
 git branch -a
