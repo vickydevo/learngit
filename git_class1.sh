@@ -16,7 +16,7 @@ git cmds
         git status     # u may get untracked files and floders
         git add .      # move files to staging
         git commit -m " give some message related to the changes" --> moves files to local repo
-# Now create repository in github repository
+#  Git that you want to add a new remote repository.
         git remote add origin <git repository url >
 # git remote add origin 
         git push origin master or main            # depends on branch
