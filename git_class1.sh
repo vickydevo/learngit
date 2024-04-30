@@ -11,6 +11,12 @@ git cmds
 ---------
  Getting Started - First-Time Git Setup 
 # ------path]/etc/gitconfig file
+# add global configurations
+    git config --global user.email "vignan.kandelab@gmail"
+    git config --global user.name "john Doe"
+# To show branch name in "git log" outputs
+    git config --global log.decorate auto
+    
 # starting local repository
         git init   --> Create repository
         git status     # u may get untracked files and floders
@@ -19,4 +25,4 @@ git cmds
 #  Git that you want to add a new remote repository.
         git remote add origin <git repository url >
 # git remote add origin 
-        git push origin master or main            # depends on branch
+        git push -u origin master/main            # depends on branch

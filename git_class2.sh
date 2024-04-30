@@ -2,7 +2,7 @@ Date: 05/03/2024  Wednesday
 Batch: PSCMR
 Class DEVOPS  [ morning]  :  
 --------------------------
-3 STAGES IN THE GIT
+4 STAGES IN THE GIT
 -----------------------
 
 work area / untracked	
@@ -21,11 +21,7 @@ git log
 git remote        # output #** origin 
 git remote -v  
 
-# add global configurations
-    git config --global user.email "vignan.kandelab@gmail"
-    git config --global user.name "john Doe"
-# To show branch name in "git log" outputs
-    git config --global log.decorate auto
+
 # make a copy of remote repo in local host
 git clone <url>
 
@@ -68,5 +64,9 @@ git clone <url>
 	git log
 	git log --oneline
 
+# [you will get remote  branches to local repo]
+git branch -r (remote)
+then 
+ 
 git pull  --> if you want to get changes from remote to local repo
 
