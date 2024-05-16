@@ -11,7 +11,7 @@ ssh-keygen   -->  private and public key are created in pc/ec2
 git revert:
 -----------
 
-Purpose: git revert is used to [create a new commit] that undoes the changes introduced by a previous commit. 
+Purpose: git revert is used to [ create a new commit] that undoes the changes introduced by a previous commit. 
     It does this by creating a new commit that applies the "reverse" of the changes made in the specified commit.
     Effects: git revert does not modify existing commits; instead, it creates a new commit with the reverted changes. This preserves the commit history and is safer for collaborative workflows.
         git revert 98bd832 
@@ -58,38 +58,6 @@ Effects: When you use git reset to move the HEAD pointer to a different commit,
         
         Example: git reset --hard HEAD~1 moves the HEAD pointer back one commit and discards all changes.
                     git reset --hard 8dee86f
-
-
-git stash :
-----------
-    It is used to temporarily store changes that are not yet ready to be committed. 
-    This is particularly useful when you need to switch to another branch or work on a different task 
-    without committing your current changes.
-    The git stash command creates a stash—a stack of changes that you can reapply later.
-
-
-        Today I am going to working on Dockerfile
-        middle of writing docker file 
-        you got production support work -->  high priority
-        you may not commit this changes
-    1.To stash your current changes, run:
-                    git stash  
-    2.You can view a list of stashed changes by running:
-            git stash list
-        "WIP" typically stands for "Work In Progress
-    3.To apply the most recent stash (i.e., the top of the stash stack), run:
-            git stash apply
-        This will reapply the stashed changes to your working directory without removing them from the stash.
-    4.If you have multiple stashes and want to apply a specific one
-            git stash apply stash@{1}
-    5.To apply the most recent stash and remove it from the stash stack, run:
-             git stash pop
-        This is equivalent to running git stash apply followed by git stash drop
-    6. To remove a specific stash from the stack without applying its changes, run:
-            git stash drop stash@{1}
-
-    7.To remove all stashed changes from the stack, run:\
-            git stash clear
 
 #  pull request:
 #  -------------
