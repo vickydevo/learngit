@@ -66,3 +66,9 @@ Effects: When you use git reset to move the HEAD pointer to a different commit,
      Pull requests are commonly used in collaborative development workflows to facilitate code review, 
      feedback, and collaboration among team members.
 
+
+        click on Pull request --> new pr --> tar  scr 
+
+     add Branch protection rule
+     settings sepecific repo --> braches -->aad rule
+
