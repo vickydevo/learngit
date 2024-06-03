@@ -66,6 +66,8 @@ git clone <url>
 
 # [you will get remote  branches to local repo]
 git branch -r (remote)
+
+
 then 
  
 git pull  --> if you want to get changes from remote to local repo

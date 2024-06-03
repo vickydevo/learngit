@@ -1,8 +1,13 @@
-Date: 00/03/2024  TUESDAY
-Batch: PSCMR
-Class DEVOPS  [morning]  :  
-------------------------------
-Explained about VCS?
+Date: 30/05/2024  Thursday
+Batch: Guntur
+Class DEVOPS  [morning]  :  2:30pm - 3:30pm
+-------------------------------------------
+Explained about VCS/SCM?
+
+   VCS could refer to Version Control System, which is a software that tracks changes to files over time. 
+   This allows developers to collaborate and go back to previous versions of files without having to manage them manually. 
+   VCS can be used for many types of files, including software source code, images, and layouts. 
+
 Difference between Centralised[SVN] and Distributed VCS [GITHUB]
 Create GITHUB account
 Download git bash
