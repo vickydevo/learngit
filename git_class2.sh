@@ -1,9 +1,10 @@
 Date: 05/03/2024  Wednesday
-Batch: PSCMR
+Batch: Paid Lingayas
 Class DEVOPS  [ morning]  :  
 --------------------------
 4 STAGES IN THE GIT
 -----------------------
+
 
 work area / untracked	
 	git add .
@@ -50,14 +51,14 @@ git clone <url>
 	git branch <branch-name>  --> create new branch
 	git branch --> branches available
 # push new branch to remote repository
-	     git push --set-upstream origin <branch-name>
-		 git push -u origin qa   [short version above command]
+	git push --set-upstream origin <branch-name>
+	git push -u origin qa   [short version above command]
 # Enter into new branch
 	git checkout <branch-name>
 #  if changes are made in new branch [feature/hotfix] 
 #  these commit are not reflected in master 
 #  to push these new change in new branch
-    use <git push >    when HEAD is redirecting new branch 
+    use <git push >    when HEAD is directing to new branch 
 
 # How to check commits in local:
 # ------------------------------
@@ -65,10 +66,8 @@ git clone <url>
 	git log --oneline
 
 # [you will get remote  branches to local repo]
-git branch -r (remote)
-
+	git branch -r (remote)
 
 then 
- 
-git pull  --> if you want to get changes from remote to local repo
-
+# if you want to get changes from remote to local repo
+	git pull  

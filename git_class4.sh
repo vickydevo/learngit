@@ -5,8 +5,27 @@
 # Git can handle most merges on its own with automatic merging features.
 		A conflict arises when two separate branches have made edits to the same line in a file, 
 		or when a file has been deleted in one branch but edited in the other.
-		Conflicts will most likely happen when working in a team environmen
 
+
+		Conflicts will most likely happen when working in a team environmen
+# Delete branches
+
+# Delete a Local Branch:
+To delete a local branch that is fully merged into your current branch:
+
+        git branch -d branch_name
+       #  If the branch is not fully merged, you ll need to use the -D option (capital D) to force delete:
+     
+        git branch -D branch_name
+
+# Delete a Remote Branch:
+# To delete a remote branch, use the following command:
+
+    git push origin --delete branch_name
+# Prune Remote-tracking Branches:
+# To remove remote-tracking references that no longer exist on the remote:
+
+    git fetch -p
 
 4. what is meant by conflicts and how to resolve?
 	we can do manually / using by 3rd party tools (tortoise git)/VSCODE

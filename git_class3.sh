@@ -2,40 +2,6 @@ Date: 14/03/2024  THRUSDAY
 Batch: JSD, DEVOPS2, DEVOPS3
 Class DEVOPS  [morning]  : 9:30am - 11:00am
 --------------------------------------------
-powershell  -->  windows  (scripts)
-shell(bash)	-->  Linux	  (scripts)
-cmd			-->  windows  (commands)
-
-# 1. If you want to convert folder as git repo	--> same folder name need to use to create remote repo 
-	git init
-	add some file
-	git branch -M <branch-name>
-	git add 
-	git commit -m <msg>
-	git remote add orgin <url>
-	git push --setupstream origin <branch-name>
-
-# 2. If you want to use remote repo as local repo
-	git clone <url>
-	add file
-	git add
-	git commit -m <msg>
-	git push
-# Create branch:
---------------
-	git branch <branch-name>  --> create new branch
-	git branch --> branches available
-# remove branch
-git branch -d branch_name
-
-# [you will get remote  branches to local repo]
-
-git branch -r (remote)
-then 
-git pull  
-
-
-
 
 # merge and rebase:
 # -----------------
@@ -61,6 +27,11 @@ i didnt find any difference in git merge and git rebase when i tried first merge
 the commit that made in first hotfix master and after using merge cmd in master is same
 
 this is because there no new changes in the master after creating new branch 
+
+impact on Collaboration:
+------------------------------------
+	Merging is safe for shared branches as it preserves history.
+	Rebasing rewrites history, so it should be used cautiously with branches shared with others to avoid complications.
 -------------------------------------------------
 # Git can handle most merges on its own with automatic merging features.
 		A conflict arises when two separate branches have made edits to the same line in a file, 
