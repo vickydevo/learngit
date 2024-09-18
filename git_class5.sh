@@ -1,7 +1,4 @@
-Date: 18/09/2024  Monday
-Batch: @7
-Class DEVOPS  [morning]  : 8am - 2:00pm
--------------------------------------------
+
 ssh-coonectivity 
 ----------------
 ssh-keygen   -->  private and public key are created in pc/ec2 
