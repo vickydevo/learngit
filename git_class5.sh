@@ -2,23 +2,18 @@ Date: 18/09/2024  Monday
 Batch: @7
 Class DEVOPS  [morning]  : 8am - 2:00pm
 -------------------------------------------
-
 ssh-coonectivity 
 ----------------
 ssh-keygen   -->  private and public key are created in pc/ec2 
             --> put id_rsa.pub [public] in github settings--> ssh-keys 
             --> then copy git cli url for specific repo 
-
-
-
 #  pull request:
 #  -------------
      It allows developers to propose changes to a repository and request that someone else review 
      and merge those changes into the main codebase. 
      Pull requests are commonly used in collaborative development workflows to facilitate code review, 
      feedback, and collaboration among team members.
-
-
+     
         click on Pull request --> new pr --> target  source
 
      add Branch protection rule
