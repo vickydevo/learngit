@@ -1,6 +1,6 @@
-Date: 18/03/2024  Monday
-Batch: PSCMR
-Class DEVOPS  [morning]  : 11am - 1:00pm
+Date: 18/09/2024  Monday
+Batch: @7
+Class DEVOPS  [morning]  : 8am - 2:00pm
 -------------------------------------------
 
 ssh-coonectivity 
